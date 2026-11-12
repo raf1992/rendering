@@ -14,12 +14,13 @@ export default function StaticPage() {
 
       {/* TODO 1: Ganti teks di dalam tag <p> di bawah ini dengan nama dan kelasmu! */}
       <p style={{ color: "#38bdf8", fontSize: "18px" }}>
-        [Silakan tulis: Halo, nama saya (Nama Kamu) dari kelas (Kelas Kamu)]
+        [Silakan tulis: Halo, nama saya (Rafarel) dari kelas (XII SIJA)]
       </p>
+
 
       {/* TODO 2: Tampilkan variabel waktuDibuat di dalam tag <b> di bawah ini */}
       <p>
-        Waktu halaman dibuat: <b>{/* Tuliskan {waktuDibuat} di sini */}... WIB</b>
+        Waktu halaman dibuat: <b>{waktuDibuat}... WIB</b>
       </p>
 
       <div className="note">
